@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto;
+  padding: 20px;
+  align-self: center;
+  margin-top: 100px;
+  min-width: 350px;
+  max-width: 800px;
+
+  .label {
+    flex: 1 1 15px;
+    padding-bottom: 20px;
+    margin: 0;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+
+  .cards {
+    align-self: center;
+    gap: 20px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+  }
+}
+
+.content {
+  display: flex;
+}

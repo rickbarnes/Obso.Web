@@ -1,0 +1,38 @@
+.card {
+  margin: 5px;
+  padding: 2px;
+  min-height: 65px;
+  min-width: 60px;
+  display: flex;
+  flex-direction: column;
+
+  .header {
+    flex: 0 0 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+    .title {
+      flex: 1 1 auto;
+      max-width: 200px;
+      padding: 5px;
+    }
+
+    .edit-button {
+      flex: 0 0 auto;
+      max-height: 10px;
+    }
+  }
+
+  .body {
+    padding: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+    .description {
+      color: red;
+    }
+    .story-points {
+      max-height: 2px;
+    }
+  }
+}

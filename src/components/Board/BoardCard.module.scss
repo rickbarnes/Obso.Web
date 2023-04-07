@@ -1,0 +1,16 @@
+.card {
+  width: 250px;
+  height: 150px;
+  position: relative;
+  filter: brightness(0.9);
+  cursor: pointer;
+
+  h6 {
+    font-size: 25px;
+    padding: 0 20px;
+  }
+
+  &:hover {
+    filter: brightness(1.1);
+  }
+}

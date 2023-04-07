@@ -1,0 +1,45 @@
+.header {
+  flex: 0 0 auto;
+  display: flex;
+  padding: 5px 0;
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .logo {
+    flex: 0 0 20px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    img {
+      max-height: 20px;
+      width: 50px;
+      filter: brightness(0) invert(1);
+    }
+  }
+
+  .buttons {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    padding: 0 5px;
+
+    .avatar {
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      background: #000;
+      cursor: pointer;
+
+      &:hover {
+        filter: brightness(1.1);
+        filter: drop-shadow(0 0 1px lightsteelblue);
+      }
+    }
+  }
+}
